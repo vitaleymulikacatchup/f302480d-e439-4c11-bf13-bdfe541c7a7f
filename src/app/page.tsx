@@ -16,6 +16,7 @@ export default function Home() {
         <NavbarLayoutSplitBottom
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/tmp/design-a-simple-high-contrast-logo-for-p-1759176610698-c91d1f45.jpg"
           buttonText="Join Peak"
+          navItems={[{ name: "Home", id: "hero" }, { name: "About", id: "about" }, { name: "How to Buy", id: "how-to-buy" }, { name: "Tokenomics", id: "tokenomics" }]}
         />
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
