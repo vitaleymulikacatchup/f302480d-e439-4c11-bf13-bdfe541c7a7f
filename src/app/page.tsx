@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteTheme, SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarLayoutSplitBottom from '@/components/navigation/NavbarLayoutSplitBottom/NavbarLayoutSplitBottom';
 import TokenBillboardHero from '@/components/sections/layouts/hero/TokenBillboardHero';
@@ -15,7 +15,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarLayoutSplitBottom
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/tmp/design-a-simple-high-contrast-logo-for-p-1759176610698-c91d1f45.jpg"
-          logoAlt="Peak logo"
           buttonText="Join Peak"
         />
       </div>
@@ -46,7 +45,6 @@ export default function Home() {
       <div id="footer" data-section="footer">
         <FooterLogo
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/tmp/design-a-simple-high-contrast-logo-for-p-1759176610698-c91d1f45.jpg"
-          logoAlt="Peak logo"
           logoText="Peak"
           className="footer"
           svgClassName="footer-logo"
